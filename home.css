@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bad+Script&family=Bebas+Neue&family=Cabin+Sketch:wght@700&family=Domine:wght@500&family=DynaPuff&family=Euphoria+Script&family=Great+Vibes&family=Hi+Melody&family=Londrina+Solid:wght@100&family=Major+Mono+Display&family=Oleo+Script+Swash+Caps&family=Playfair+Display+SC&family=Raleway&family=Raleway+Dots&family=Rancho&family=Roboto+Slab:wght@300&family=Sue+Ellen+Francisco&family=Tiro+Bangla&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Raleway Dots', cursive;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-image: radial-gradient(circle, rgba(251,63,161,1) 0%, rgba(243,178,64,1) 31%, rgba(70,252,204,1) 100%);
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+.btns{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: whitesmoke; */
+}
+.btns .btn a{
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 26px;
+    color:whitesmoke;
+    transition: 0.3s all;
+    font-family: 'Raleway', cursive;
+}
+.btns .btn a:hover{
+    color:#000;
+}
+.btns .btn:hover{
+    background-color: whitesmoke;
+}
+.btns .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: black;
+    transition: 0.3s all;
+}
+.t{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 1140px) {
+    .btns{
+        flex-wrap: wrap;
+    }
+    .btns .btn{
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .btns .btn a{
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 53px) and (max-width: 579px) {
+    .btns{
+        flex-wrap: wrap;
+    }
+    .btns .btn{
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .btns .btn a{
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+}

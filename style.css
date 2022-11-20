@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Cabin+Sketch:wght@700&family=Domine:wght@500&family=Dosis&family=DynaPuff&family=Euphoria+Script&family=Great+Vibes&family=Hi+Melody&family=Lobster+Two:ital,wght@1,700&family=Londrina+Solid:wght@100&family=Major+Mono+Display&family=Oleo+Script+Swash+Caps&family=Playfair+Display+SC&family=Raleway&family=Raleway+Dots&family=Rancho&family=Roboto+Slab:wght@300&family=Sue+Ellen+Francisco&family=Tiro+Bangla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Domine', serif;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Euphoria Script', cursive;
+    font-family: 'Hi Melody', cursive;
+    font-family: 'Londrina Solid', cursive;
+    font-family: 'Raleway Dots', cursive;
+    font-family: 'Raleway', cursive;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Lobster Two', cursive;
+    /* font-family: 'Oleo Script Swash Caps', cursive; */
+    /* font-family: 'Playfair Display SC', serif; */
+    /* font-family: 'Rancho', cursive; */
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-family: 'Sue Ellen Francisco', cursive; */
+    /* font-family: 'Tiro Bangla', serif;  */
+}
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: radial-gradient(#000);
+}
+#main{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+#hint{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container{
+    width:100vw;
+    text-align: center;
+    margin-top: 20px;
+}
+#gtn{
+    margin-right: 20px;
+    height: 30px;
+    width: 250px;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+#check{
+    height: 35px;
+    width: auto;
+    padding: 5px;
+    border:3px solid rgb(0, 218, 116);
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#Hyn{
+    height: 35px;
+    width: auto;
+    padding: 5px;
+    border:3px solid rgb(0, 218, 116);
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.none{
+    display: none;
+}
+#retry{
+    height: 35px;
+    width: auto;
+    padding: 5px;
+    border:3px solid rgb(0, 218, 116);
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+#retry:hover{
+    border:3px solid rgb(243, 0, 53);
+    background-color: rgb(255, 225, 125);
+    color: rgb(0, 0, 0);
+}
+#check:hover{
+    border:3px solid rgb(243, 0, 53);
+    background-color: rgb(255, 225, 125);
+    color: rgb(0, 0, 0);
+}
+#Hyn:hover{
+    border:3px solid rgb(243, 0, 53);
+    background-color: rgb(255, 225, 125);
+    color: rgb(0, 0, 0);
+}
+@media (min-width: 329px) and (max-width: 660px){
+    #check{
+        font-size: 15px;
+    }
+    #Hyn{
+        font-size: 15px;
+    }
+    #hint{
+        font-size: 25px;
+    }
+    #gtn{
+        width: 200px;
+        margin-right: 10px;
+    }
+    #head{
+        font-size: 35px;
+    }
+    #last{
+        font-size: 20px;
+    }
+    #Hyn{
+        margin-top: 20px;
+        /* margin-left: 10px; */
+    }
+}
+@media (min-width: 53px) and (max-width: 330px){
+    #last{
+        font-size: 19px;
+    }
+    #hint{
+        font-size: 20px;
+    }
+    #gtn{
+        width: 225px;
+        margin-right: 0px;
+    }
+    #check{
+        margin-top: 20px;
+        /* margin-left: 10px; */
+    }
+    #Hyn{
+        margin-top: 20px;
+        /* margin-left: 10px; */
+    }
+    #head{
+        font-size: 30px;
+    }
+}
