@@ -52,6 +52,7 @@ Hyn.addEventListener("click", () => {
     check.className = "";
     gtn.value = "";
     head.innerHTML = "Guess The Number<br>Between 0 To 100";
+    hint.innerHTML = "";
   } else {
     hint.innerText = "Enter The Number Between 0 To 100";
     gtn.value = "";
