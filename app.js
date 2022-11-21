@@ -71,8 +71,6 @@ check.addEventListener("click", () => {
     retry.innerText = "Play Again?";
     hint.innerText = "";
     check.className = "none";
-    last.style.backgroundClip = 'text';
-    last.style.color = 'transparent';
   } else {
     ch = ch - 1;
     last.innerText = `Wrong Guess ${ch} Chance Left`;

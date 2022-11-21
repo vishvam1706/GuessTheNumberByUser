@@ -3,27 +3,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family: 'Domine', serif;
-    font-family: 'DynaPuff', cursive;
-    font-family: 'Euphoria Script', cursive;
-    font-family: 'Hi Melody', cursive;
-    font-family: 'Londrina Solid', cursive;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     font-family: 'Raleway Dots', cursive;
-    font-family: 'Raleway', cursive;
-    font-family: 'Major Mono Display', monospace;
-    font-family: 'Cabin Sketch', cursive;
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Russo One', sans-serif;
-    font-family: 'Lobster Two', cursive;
-    /* font-family: 'Oleo Script Swash Caps', cursive; */
-    /* font-family: 'Playfair Display SC', serif; */
-    /* font-family: 'Rancho', cursive; */
-    /* font-family: 'Roboto Slab', serif; */
-    /* font-family: 'Sue Ellen Francisco', cursive; */
-    /* font-family: 'Tiro Bangla', serif;  */
+
+    /* font-family: 'Raleway', cursive; */
+
+    /* font-family: 'Russo One', sans-serif; */
 }
 body{
     background-color: rgb(0, 0, 0);
@@ -72,6 +58,7 @@ h3{
     color: aliceblue;
     font-size: 18px;
     border-radius: 10px;
+    font-family: 'Raleway', cursive;
 }
 #Hyn{
     height: 35px;
@@ -82,6 +69,7 @@ h3{
     color: aliceblue;
     font-size: 18px;
     border-radius: 10px;
+    font-family: 'Raleway', cursive;
 }
 .none{
     display: none;
@@ -97,6 +85,7 @@ h3{
     display: block;
     margin: auto;
     border-radius: 10px;
+    font-family: 'Raleway', cursive;
 }
 #retry:hover{
     border:3px solid rgb(243, 0, 53);
