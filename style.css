@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Cabin+Sketch:wght@700&family=Domine:wght@500&family=Dosis&family=DynaPuff&family=Euphoria+Script&family=Great+Vibes&family=Hi+Melody&family=Lobster+Two:ital,wght@1,700&family=Londrina+Solid:wght@100&family=Major+Mono+Display&family=Oleo+Script+Swash+Caps&family=Playfair+Display+SC&family=Raleway&family=Raleway+Dots&family=Rancho&family=Roboto+Slab:wght@300&family=Sue+Ellen+Francisco&family=Tiro+Bangla&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Cabin+Sketch:wght@700&family=Domine:wght@500&family=Dosis&family=DynaPuff&family=Euphoria+Script&family=Great+Vibes&family=Hi+Melody&family=Lobster+Two:ital,wght@1,700&family=Londrina+Solid:wght@100&family=Major+Mono+Display&family=Nunito&family=Oleo+Script+Swash+Caps&family=Playfair+Display+SC&family=Quicksand&family=Raleway&family=Raleway+Dots&family=Rancho&family=Roboto+Slab:wght@300&family=Sue+Ellen+Francisco&family=Tiro+Bangla&family=VT323&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -48,6 +47,7 @@ h3{
     border-radius: 10px;
     font-size: 20px;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #check{
     height: 35px;
